@@ -3,7 +3,7 @@ kind: Ingress
 metadata:
   name: fruit-ingress
   annotations:
-    ingress.kubernetes.io/rewrite-target: /
+    kubernetes.io/ingress.class: nginx
 spec:
   rules:
   - http:
